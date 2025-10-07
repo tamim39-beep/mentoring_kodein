@@ -22,9 +22,9 @@ export default function DataTable({ columns, data }) {
   });
   
   return (
-    <div className="overflow-hidden rounded-md border">
+    <div className="overflow-hidden border ">
       <Table>
-        <TableHeader>
+        <TableHeader className="bg-slate-400">
           {table.getHeaderGroups().map((headerGroup) => (
             <TableRow key={headerGroup.id}>
               {headerGroup.headers.map((header) => {
