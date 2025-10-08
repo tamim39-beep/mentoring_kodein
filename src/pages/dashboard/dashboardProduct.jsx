@@ -1,5 +1,5 @@
 import DataTable from "@/components/dataTable";
-import { columns } from "@/utils/dataUser/columsUser";
+import { columns } from "@/pages/dashboard/dasboardUser/columsUser";
 import { data } from "@/utils/dataUser/dataUser";
 import LayoutDashboard from "@/components/layout/layoutDashboard";
 
