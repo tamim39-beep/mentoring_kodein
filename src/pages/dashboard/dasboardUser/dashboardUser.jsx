@@ -1,7 +1,7 @@
 import DataTable from "@/components/dataTable";
 import { columns } from "@/pages/dashboard/dasboardUser/columsUser";
 import LayoutDashboard from "@/components/layout/layoutDashboard";
-import { getUsers } from "@/utils/api/users";
+import { getUsers} from "@/utils/api/users";
 import { useState, useEffect } from "react";
 
 export default function DashboardUser() {
