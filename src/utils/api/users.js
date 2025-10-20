@@ -19,3 +19,13 @@ export const deleteUser = async(id) => {
         console.log(error);
     }
 }
+
+export const addUser = async(data) => {
+    try {
+        const response = await axios.post(`http://localhost:3000/users/`, data);
+        return response.data.data;
+    } catch (error) {
+        console.error(error);
+        throw error;
+    }
+}
